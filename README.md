@@ -6,7 +6,7 @@ The Rhize Connector enables Seeq to access data from Rhize.
 > Requires Rhize v4.1.0+
 
 ### Download
-Zip files containing the Rhize Connector are distributed at a dedicated [repository](https://github.com/libremfg/rhize-docs).
+Zip files containing the Rhize Connector are distributed at a dedicated [repository](https://github.com/libremfg/rhize-seeq-connector/releases).
 
 ## Rhize Compatibility
 Each release of the Rhize Connector is designed to align with the corresponding version of the Rhize platform for full compatibility.
