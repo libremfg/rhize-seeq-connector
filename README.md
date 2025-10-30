@@ -21,7 +21,8 @@ The Rhize Connector requires a client configured for it in order to communicate 
 2. Configure the **General Settings:**
     - **Client Type:** OpenID Connect
     - **Client ID:** seeq
-    **Name** and **Description** can be anything.
+  
+        **Name** and **Description** can be anything.
 3. Configure the **Capability config:**
     - **Client Authentication:** On
     - **Authorization:** On
@@ -41,7 +42,7 @@ The Rhize Connector requires a client configured for it in order to communicate 
         - `operations-schedule:query`
         - `operations-performance:query`
         
-    Roles can be filted to only show **libreBaas** roles by using the search.
+    Roles can be filtered to only show **libreBaas** roles by using the search.
 6. Select the **Credentials** tab and copy the **Client secret**.
 
 > The Client ID and Client Secret are both necessary for authenticating the Rhize Connector.
