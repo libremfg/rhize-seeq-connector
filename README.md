@@ -79,6 +79,8 @@ This is an example configuration.
 | ClientId | null | String | The ID for the configured Seeq client. |
 | ClientSecret | null | String | The secret for the configured Seeq client. |
 | Realm | null | String | The realm for Rhize's Keycloak configuration. |
+| Overfetch | true | Boolean | Determines if the connector should try to query samples beyond the given bounds, so Seeq can interpolate data. |
+| HistoryRetries | 0 | Integer | How many times the connector should try to query samples, in the case of a "table busy" error. |
 
 ## Known Issues
 There are no known issues for the Rhize Connector. Please report any issues you find to our [support portal](https://libremfg.atlassian.net/servicedesk/customer/portal/1) or to our support email: support@libremfg.atlassian.net.
