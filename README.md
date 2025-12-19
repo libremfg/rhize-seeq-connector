@@ -51,6 +51,12 @@ The Rhize Connector requires a client configured for it in order to communicate 
 The API URL defines how to connect to Rhize's database. Commonly this is a domain with the `/graphql` path.
 
 ## Configuration
+
+### Max Results Per Request
+This determines the number of samples to query per request. For Rhize, this determines the limit applied to the history query when fetching samples. It is recommended to keep this value at around `10,000`.
+
+### Additional Configuration
+
 This is an example configuration.
 
 ```json
@@ -60,6 +66,8 @@ This is an example configuration.
     "ClientId" : "seeq",
     "ClientSecret" : "Dh8tdWmsBi9MB830Zmarj89yrC95mVSX",
     "Realm" : "libre",
+    "Overfetch" : true,
+    "HistoryRetries" : 0
 }
 ```
 
