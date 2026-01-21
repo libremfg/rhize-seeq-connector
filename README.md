@@ -67,7 +67,9 @@ This is an example configuration.
     "ClientSecret" : "Dh8tdWmsBi9MB830Zmarj89yrC95mVSX",
     "Realm" : "libre",
     "Overfetch" : true,
-    "HistoryRetries" : 0
+    "HistoryRetries" : 0,
+    "EnableNestedProperties" : false,
+    "DisableEmptyProperties" : false
 }
 ```
 
@@ -81,6 +83,8 @@ This is an example configuration.
 | Realm | null | String | The realm for Rhize's Keycloak configuration. |
 | Overfetch | true | Boolean | Determines if the connector should try to query samples beyond the given bounds, so Seeq can interpolate data. |
 | HistoryRetries | 0 | Integer | How many times the connector should try to query samples, in the case of a "table busy" error. |
+| EnableNestedProperties | false | Boolean | Indexes parent properties as assets with child properties under those assets. |
+| DisableEmptyProperties | false | Boolean | Skips indexing for bound properties with no binding and static properties with no value. |
 
 ## Known Issues
 There are no known issues for the Rhize Connector. Please report any issues you find to our [support portal](https://libremfg.atlassian.net/servicedesk/customer/portal/1) or to our support email: support@libremfg.atlassian.net.
